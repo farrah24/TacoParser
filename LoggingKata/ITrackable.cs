@@ -2,7 +2,9 @@
 {
     public interface ITrackable
     {
-        string Name { get; set; }
+        string GetName();
+        void SetName(string value);
+
         Point Location { get; set; }
     }
 }
